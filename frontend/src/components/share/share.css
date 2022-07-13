@@ -1,0 +1,96 @@
+.share {
+  width: 95%;
+
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.shareWrapper {
+  padding: 10px;
+  width: 95%;
+}
+.Top {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.shareProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shInput {
+  border: none;
+  width: 80%;
+}
+
+.shInput:focus {
+  outline: none;
+}
+
+.shHr {
+  margin: 20px;
+}
+
+.Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soptions {
+  display: flex;
+  margin-left: 20px;
+}
+
+.shOption {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.shIcon {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.shOptionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shButton {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.shareImgContainer {
+  position: relative;
+  padding: 0 20px 10px 20px;
+}
+
+.shareImg {
+  width: 100%;
+  object-fit: cover;
+  height: inherit;
+}
+
+.shareCancelImg {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
